@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://balasivasaimegireddypadala.netlify.app/"><strong>Portfolio ↗</strong></a> &nbsp; · &nbsp;
   <a href="https://www.linkedin.com/in/bala-siva-sai-megi-reddy-padala/">LinkedIn</a> &nbsp; · &nbsp;
-  <a href="https://github.com/siva-fy?tab=repositories">All repositories</a>
+  <a href="https://github.com/siva-fy?tab=repositories&amp;q=archived%3Afalse">Active repositories</a>
 </p>
 
 ## Hi, I'm Siva.
@@ -16,6 +16,19 @@ engineering that makes AI applications measurable.
 
 My personal projects explore a connected set of questions: **Can the pipeline
 survive a replay? Can the data be trusted? Can the AI result be evaluated?**
+
+## Start here
+
+Explore **[Event Warehouse](https://github.com/siva-fy/event-warehouse)** for a
+small, replay-safe data pipeline, or **[Retrieval Eval Lab](https://github.com/siva-fy/retrieval-eval-lab)**
+for an inspectable retrieval baseline. Both run locally with synthetic fixtures:
+
+```bash
+git clone https://github.com/siva-fy/event-warehouse.git
+cd event-warehouse
+python3 demo.py
+python3 -m unittest discover -s tests -v
+```
 
 ## Data engineering
 
@@ -40,10 +53,16 @@ results are reproducible fixture outputs, not production or model benchmarks.
 
 ## Earlier explorations
 
+These older projects show my path through ETL, machine learning, web and mobile
+development. Their READMEs explain setup and current limitations.
+
 - [Banking ETL](https://github.com/siva-fy/ETL-Banks-Project) — extraction, transformation and CSV/SQL outputs.
 - [Transformer from scratch](https://github.com/siva-fy/Language_translation_using_Transformer_from_scratch) — an encoder–decoder language translation project.
 - [Book Store](https://github.com/siva-fy/Book-Store-Mern-Stack) — React, Express and MongoDB.
 - [Flutter Weather](https://github.com/siva-fy/FlutterWeather) — a mobile weather application.
+
+Smaller coursework and interface exercises live in the
+[learning archive](https://github.com/siva-fy?tab=repositories&q=archived%3Atrue).
 
 ## What I work with here
 
